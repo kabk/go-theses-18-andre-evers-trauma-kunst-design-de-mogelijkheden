@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	top: 50px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3vw;
+	color: #D84939;
+	cursor: pointer;
+	text-decoration: none;
+}
+body {
+	background-image: url(../afbeeldingen/Proef-5.gif);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#000000;
+}
+.sliceA {
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: 1.5vw;
+	background-color: transparent;
+}
+.sliceB {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1.5vw;
+	background-color:#000000;
+	visibility: hidden;
+}
+#slice1A {
+	top: 40;
+}
+#slice2A {
+	top: 60;
+}
+#slice3A {
+	top: 80;
+}
+#slice4A {
+	top: 100;
+}
+#slice5A {
+	top: 120;
+}
+#slice6A {
+	top: 140;
+}
+#slice7A {
+	top: 160;
+}
+#slice8A {
+	top: 180;
+}
+#slice9A {
+	top: 200;
+}
+#slice10A {
+	top: 220;
+}
+#slice11A {
+	top: 240;
+}
+#slice12A {
+	top: 260;
+}
+#slice13A {
+	top: 280;
+}
+#slice14A {
+	top: 300;
+}
+#slice15A {
+	top: 320;
+}
+#slice16A {
+	top: 340;
+}
+#slice17A {
+	top: 360;
+}
+#slice18A {
+	top: 380;
+}
+#slice19A {
+	top: 400;
+}
+#slice20A {
+	top: 420;
+}
+#slice21A {
+	top: 440;
+}
+#slice22A {
+	top: 460;
+}
+#slice23A {
+	top: 480;
+}
+#slice24A {
+	top: 500;
+}
+#slice25A {
+	top: 520;
+}
+#slice26A {
+	top: 540;
+}
+#slice27A {
+	top: 560;
+}
+#slice28A {
+	top: 580;
+}
+#slice1A:hover #slice1B, #slice2A:hover #slice2B, #slice3A:hover #slice3B, #slice4A:hover #slice4B, #slice5A:hover #slice5B, #slice6A:hover #slice6B, #slice7A:hover #slice7B, #slice8A:hover #slice8B, #slice9A:hover #sliceB, #slice10A:hover #slice10B, #slice11A:hover #slice11B, #slice12A:hover #slice12B, #slice13A:hover #slice13B, #slice14A:hover #slice14B, #slice15A:hover #slice15B, #slice16A:hover #slice16B, #slice17A:hover #slice17B, #slice18A:hover #slice18B, #slice19A:hover #slice19B, #slice20A:hover #slice20B, #slice21A:hover #slice21B, #slice22A:hover #slice22B, #slice23A:hover #slice23B, #slice24A:hover #slice24B, #slice25A:hover #slice25B, #slice26A:hover #slice26B, #slice27A:hover #slice27B, #slice28A:hover #slice28B {
+	visibility: visible;
+	background-color: transparent;
+}
+a {
+	text-decoration: none;
+	color: #D84939;
+	cursor: pointer;
+}

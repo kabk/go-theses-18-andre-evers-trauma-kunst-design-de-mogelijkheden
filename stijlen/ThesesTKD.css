@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background-color: #e3e1dd;
+}
+.hrl {
+	width: 75%;
+	height: 0.1vw;
+	color: #000000;
+	background-color: #000000;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	float: left;
+	margin-right: 25%;
+}
+.hrr {
+	width: 75%;
+	height: 0.1vw;
+	color: #000000;
+	background-color: #000000;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	float: right;
+}
+#Container1 {
+	width: 20%;
+	margin-left: 10%;
+	float: left;
+	height: 100px;
+	margin-top: 1%;
+	position: fixed;
+}
+#Container2 {
+	width: 19%;
+	margin-left: 31%;
+	margin-top: 1%;
+	height: 100px;
+	float: left;
+}
+#Container3 {
+	width: 34%;
+	height: 100%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+#Logo {
+	float: right;
+	width: 100%;
+}
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.1vw;
+	color: rgb(0,0,0);
+	letter-spacing: 0.1em;
+}
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 0.8vw;
+	color: rgb(0,0,0);
+	letter-spacing: 0.1em;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9vw;
+	color: rgb(0,0,0);
+	font-weight: normal;
+}
+h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.5vw;
+	text-align: left;
+	float: left;
+}
+h5 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.1vw;
+	color: rgb(0,0,0);
+	text-align: right;
+	line-height: 2vw;
+	letter-spacing: 0.1em;
+}
+h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.5vw;
+	text-align: right;
+	float: right;
+	margin-top: 1%;
+}
+a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	cursor: pointer;
+}
+.voetnoot {
+	float: left;
+	width: 33%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	text-align: left;
+	float: left;
+}
+sup {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	font-weight: normal;
+}
+#afbeelding1 {
+	margin-top: 300%;	
+}
