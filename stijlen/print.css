@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+body {
+	background-color:rgb(227,225,221);
+	}
+#Opening {
+	float: left;
+	width: 100%;
+	page-break-after: always;
+}
+.hrl {
+	width: 62%;
+	height: 0.1vw;
+	color: #000000;
+	background-color: #000000;
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+	float: left;
+	margin-right: 55%;
+	margin-left: 35%;
+}
+.hrr {
+	width: 75%;
+	height: 0.1vw;
+	color: #000000;
+	background-color: #000000;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	float: right;
+}
+#Containermenu {
+	width: 15%;
+	margin-left: 2%;
+	float: left;
+	margin-top: 1%;
+}
+#Logo {
+	float: right;
+	width: 100%;
+}
+#Containercontent {
+	width: 80%;
+	margin-top: 1%;
+	height: 100px;
+	float: left;
+	margin-left: 1%;
+	margin-right: 2%;
+}
+#Speciaalcontainer, #Voorwoordcontainer, #Inleidingcontainer, #Traumacontainer, #Psychecontainer, #Kunstcontainer, #Mogelijkhedencontainer, #Bewustwordingcontainer, #Provocatiecontainer, #Confrontatiecontainer, #Lijdencontainer, #Rouwencontainer, #Verwerkencontainer, #Herkenningcontainer, #Hoopcontainer, #Rehabilitatiecontainer, #Herdenkencontainer, #Visualiserencontainer, #Rechtvaardigingcontainer, #Moedcontainer, #Erkennencontainer, #Erkenningcontainer, #Verbindencontainer, #Conclusiecontainer, #Bronnencontainer, #Beeldverwijzingcontainer, #Verantwoordingcontainer, #Colofoncontainer {
+	width: 100%;
+}
+#Speciaaltitel, #Voorwoordtitel, #Inleidingtitel, #Traumatitel, #Psychetitel, #Kunsttitel, #Mogelijkhedentitel, #Bewustwordingtitel, #Provocatietitel, #Confrontatietitel, #Lijdentitel, #Rouwentitel, #Verwerkentitel, #Herkenningtitel, #Rehabilitatietitel, #Herdenkentitel, #Visualiserentitel, #Rechtvaardigingtitel, #Moedtitel, #Erkennentitel, #Erkenningtitel, #Verbindentitel, #Conclusietitel, #Bronnentitel, #Beeldverwijzingtitel, #Verantwoordingtitel, #Colofontitel {
+	width: 65%;
+	float: left;
+	margin-left:35%;
+	margin-bottom: 0.1vw;
+	page-break-before: always;
+}	
+#Voorwoordbeeld, #Voorwoordtekst1, #Voorwoordtekst2, #Inleidingbeeld, #Inleidingtekst1, #Inleidingtekst2, #Traumabeeld, #Traumatekst1, #Traumatekst2, #Psychebeeld, #Psychetekst1, #Psychetekst2, #Kunstbeeld, #Kunsttekst1, #Kunsttekst2, #Mogelijkhedenbeeld, #Mogelijkhedentekst1, #Mogelijkhedentekst2, #Bewustwordingbeeld, #Bewustwordingtekst1, #Bewustwordingtekst2, #Provocatiebeeld, #Provocatietekst1, #Provocatietekst2, #Confrontatiebeeld, #Confrontatietekst1, #Confrontatietekst2, #Lijdenbeeld, #Lijdentekst1, #Lijdentekst2, #Rouwenbeeld, #Rouwentekst1, #Rouwentekst2, #Verwerkenbeeld, #Verwerkentekst1, #Verwerkentekst2, #Herkenningbeeld, #Herkenningtekst1, #Herkenningtekst2,#Hoopbeeld, #Hooptekst1, #Hooptekst2, #Rehabilitatiebeeld, #Rehabilitatietekst1, #Rehabilitatietekst2, #Herdenkenbeeld, #Herdenkentekst1, #Herdenkentekst2, #Visualiserenbeeld, #Visualiserentekst1, #Visualiserentekst2, #Rechtvaardigingbeeld, #Rechtvaardigingtekst1, #Rechtvaardigingtekst2, #Moedbeeld, #Moedtekst1, #Moedtekst2, #Erkennenbeeld, #Erkennentekst1, #Erkennentekst2, #Erkenningbeeld, #Erkenningtekst1, #Erkenningtekst2, #Verbindenbeeld, #Verbindentekst1, #Verbindentekst2, #Conclusiebeeld, #Conclusietekst1, #Conclusietekst2, #Bronnenbeeld, #Bronnentekst1, #Bronnentekst2, #Beeldverwijzingbeeld, #Beeldverwijzingtekst1, #Beeldverwijzingtekst2, #beeld, #tekst1, #tekst2, #beeld, #tekst1, #tekst2, #Verantwoordingbeeld, #Verantwoordingtekst1, #Verantwoordingtekst2, #Colofonbeeld, #Colofontekst1, #Colofontekst2 {
+	margin-left:2%;
+	float:left;
+	width: 31%;
+}
+#Voorwoordbeeld, #Inleidingbeeld, #Traumabeeld, #Psychebeeld, #Kunstbeeld, #Mogelijkhedenbeeld, #Bewustwordingbeeld, #Provocatiebeeld, #Confrontatiebeeld, #Lijdenbeeld, #Rouwenbeeld, #Verwerkenbeeld, #Herkenningbeeld, #Hoopbeeld, #Rehabilitatiebeeld, #Herdenkenbeeld, #Visualiserenbeeld, #Rechtvaardigingbeeld, #Moedbeeld, #Erkennenbeeld, #Erkenningbeeld, #Verbindenbeeld, #Conclusiebeeld, #Bronnenbeeld, #Beeldverwijzingbeeld, #Verantwoordingbeeld, #Colofonbeeld  {
+	margin-top:-2%
+}
+/*Opvulling lege div*/
+#Mogelijkhedenbeeld {
+	margin-bottom: 5%;
+}
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.4vw;
+	color: rgb(213,93,45);
+	letter-spacing: 0.1em;
+}
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.2vw;
+	color: rgb(0,0,0);
+	letter-spacing: 0.1em;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9vw;
+	color: rgb(0,0,0);
+	font-weight: normal;
+}
+h4 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	text-align: left;
+	float: left;
+}
+h5 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 0.9vw;
+	color: rgb(0,0,0);
+	text-align: right;
+	line-height: 2vw;
+	letter-spacing: 0.1em;
+	float: right;
+}
+h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	text-align: left;
+	float: left;
+	margin-top: 1%;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(0,0,0);
+}
+.voetnoot {
+	float: left;
+	width: 50%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	text-align: left;
+	float: left;
+	margin-top: 4%;
+}
+sup {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.6vw;
+	font-weight: normal;
+}
