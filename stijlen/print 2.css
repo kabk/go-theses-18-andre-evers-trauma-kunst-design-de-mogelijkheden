@@ -12,16 +12,17 @@ body {
 #Opening {
 	float: left;
 	width: 100%;
+	page-break-after: always;
 }
 .hrl {
-	width: 55%;
+	width: 62%;
 	height: 0.1vw;
 	color: #000000;
 	background-color: #000000;
 	margin-bottom: 2vw;
-	margin-top: 1vw;
+	margin-top: 2vw;
 	float: left;
-	margin-right: 10%;
+	margin-right: 55%;
 	margin-left: 35%;
 }
 .hrr {
@@ -38,7 +39,6 @@ body {
 	margin-left: 2%;
 	float: left;
 	margin-top: 1%;
-	position: fixed;
 }
 #Logo {
 	float: right;
@@ -49,35 +49,26 @@ body {
 	margin-top: 1%;
 	height: 100px;
 	float: left;
-	margin-left: 20%;
+	margin-left: 1%;
 	margin-right: 2%;
 }
-#Speciaaltitel {
-	margin-top: 1%;
-	margin-bottom: 2%;
-}
-
 #Speciaalcontainer, #Voorwoordcontainer, #Inleidingcontainer, #Traumacontainer, #Psychecontainer, #Kunstcontainer, #Mogelijkhedencontainer, #Bewustwordingcontainer, #Provocatiecontainer, #Confrontatiecontainer, #Lijdencontainer, #Rouwencontainer, #Verwerkencontainer, #Herkenningcontainer, #Hoopcontainer, #Rehabilitatiecontainer, #Herdenkencontainer, #Visualiserencontainer, #Rechtvaardigingcontainer, #Moedcontainer, #Erkennencontainer, #Erkenningcontainer, #Verbindencontainer, #Conclusiecontainer, #Bronnencontainer, #Beeldverwijzingcontainer, #Verantwoordingcontainer, #Colofoncontainer {
 	width: 100%;
 }
 #Speciaaltitel, #Voorwoordtitel, #Inleidingtitel, #Traumatitel, #Psychetitel, #Kunsttitel, #Mogelijkhedentitel, #Bewustwordingtitel, #Provocatietitel, #Confrontatietitel, #Lijdentitel, #Rouwentitel, #Verwerkentitel, #Herkenningtitel, #Rehabilitatietitel, #Herdenkentitel, #Visualiserentitel, #Rechtvaardigingtitel, #Moedtitel, #Erkennentitel, #Erkenningtitel, #Verbindentitel, #Conclusietitel, #Bronnentitel, #Beeldverwijzingtitel, #Verantwoordingtitel, #Colofontitel {
 	width: 65%;
 	float: left;
+	margin-left:35%;
 	margin-bottom: 0.1vw;
-	padding-left: 35%;
-}
-
-#Voorwoordbeeld, #Inleidingbeeld, #Traumabeeld, #Psychebeeld, #Kunstbeeld, #Mogelijkhedenbeeld, #Bewustwordingbeeld, #Provocatiebeeld, #Confrontatiebeeld, #Lijdenbeeld, #Rouwenbeeld, #Verwerkenbeeld, #Herkenningbeeld, #Hoopbeeld, #Rehabilitatiebeeld, #Herdenkenbeeld, #Visualiserenbeeld, #Rechtvaardigingbeeld, #Moedbeeld, #Erkennenbeeld, #Erkenningbeeld, #Verbindenbeeld, #Conclusiebeeld, #Bronnenbeeld, #Verwijzingbeeld, #Verantwoordingbeeld, #Colofonbeeld {
+	page-break-before: always;
+}	
+#Voorwoordbeeld, #Voorwoordtekst1, #Voorwoordtekst2, #Inleidingbeeld, #Inleidingtekst1, #Inleidingtekst2, #Traumabeeld, #Traumatekst1, #Traumatekst2, #Psychebeeld, #Psychetekst1, #Psychetekst2, #Kunstbeeld, #Kunsttekst1, #Kunsttekst2, #Mogelijkhedenbeeld, #Mogelijkhedentekst1, #Mogelijkhedentekst2, #Bewustwordingbeeld, #Bewustwordingtekst1, #Bewustwordingtekst2, #Provocatiebeeld, #Provocatietekst1, #Provocatietekst2, #Confrontatiebeeld, #Confrontatietekst1, #Confrontatietekst2, #Lijdenbeeld, #Lijdentekst1, #Lijdentekst2, #Rouwenbeeld, #Rouwentekst1, #Rouwentekst2, #Verwerkenbeeld, #Verwerkentekst1, #Verwerkentekst2, #Herkenningbeeld, #Herkenningtekst1, #Herkenningtekst2,#Hoopbeeld, #Hooptekst1, #Hooptekst2, #Rehabilitatiebeeld, #Rehabilitatietekst1, #Rehabilitatietekst2, #Herdenkenbeeld, #Herdenkentekst1, #Herdenkentekst2, #Visualiserenbeeld, #Visualiserentekst1, #Visualiserentekst2, #Rechtvaardigingbeeld, #Rechtvaardigingtekst1, #Rechtvaardigingtekst2, #Moedbeeld, #Moedtekst1, #Moedtekst2, #Erkennenbeeld, #Erkennentekst1, #Erkennentekst2, #Erkenningbeeld, #Erkenningtekst1, #Erkenningtekst2, #Verbindenbeeld, #Verbindentekst1, #Verbindentekst2, #Conclusiebeeld, #Conclusietekst1, #Conclusietekst2, #Bronnenbeeld, #Bronnentekst1, #Bronnentekst2, #Beeldverwijzingbeeld, #Beeldverwijzingtekst1, #Beeldverwijzingtekst2, #beeld, #tekst1, #tekst2, #beeld, #tekst1, #tekst2, #Verantwoordingbeeld, #Verantwoordingtekst1, #Verantwoordingtekst2, #Colofonbeeld, #Colofontekst1, #Colofontekst2 {
+	margin-left:2%;
 	float:left;
-	width: 32%;
-	margin-top: -2%;
+	width: 31%;
 }
-	
-#Voorwoordtekst1, #Inleidingtekst1, #Traumatekst1, #Psychetekst1, #Kunsttekst1, #Mogelijkhedentekst1, #Bewustwordingtekst1, #Provocatietekst1, #Confrontatietekst1, #Lijdentekst1, #Rouwentekst1, #Verwerkentekst1, #Herkenningtekst1,  #Hooptekst1, #Rehabilitatietekst1, #Herdenkentekst1, #Visualiserentekst1, #Rechtvaardigingtekst1, #Moedtekst1, #Erkennentekst1, #Erkenningtekst1, #Verbindentekst1, #Conclusietekst1, #Bronnentekst1, #Beeldverwijzingtekst1, #Beeldverwijzingtekst1,#Verantwoordingtekst1, #Colofontekst1 {
-	margin-left:3%;
-	float:left;
-	width: 55%;
-	padding-right: 10%;
+#Voorwoordbeeld, #Inleidingbeeld, #Traumabeeld, #Psychebeeld, #Kunstbeeld, #Mogelijkhedenbeeld, #Bewustwordingbeeld, #Provocatiebeeld, #Confrontatiebeeld, #Lijdenbeeld, #Rouwenbeeld, #Verwerkenbeeld, #Herkenningbeeld, #Hoopbeeld, #Rehabilitatiebeeld, #Herdenkenbeeld, #Visualiserenbeeld, #Rechtvaardigingbeeld, #Moedbeeld, #Erkennenbeeld, #Erkenningbeeld, #Verbindenbeeld, #Conclusiebeeld, #Bronnenbeeld, #Beeldverwijzingbeeld, #Verantwoordingbeeld, #Colofonbeeld  {
+	margin-top:-2%
 }
 /*Opvulling lege div*/
 #Mogelijkhedenbeeld {
@@ -122,12 +113,6 @@ h6 {
 	text-align: left;
 	float: left;
 	margin-top: 1%;
-}
-h7 {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 1.2vw;
-	color: rgb(213,93,45);
-	letter-spacing: 0.1em;
 }
 a {
 	text-decoration: none;
