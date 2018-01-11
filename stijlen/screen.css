@@ -71,13 +71,13 @@ body{
 	padding-left: 35%;
 }
 
-#Voorwoordbeeld, #Inleidingbeeld, #Traumabeeld, #Psychebeeld, #Mogelijkhedenbeeld, #Bewustwordingbeeld, #Provocatiebeeld, #Confrontatiebeeld, #Lijdenbeeld, #Rouwenbeeld, #Collectiefverwerkenbeeld,  #Individueelverwerkenbeeld, #Herkenningbeeld, #Hoopbeeld, #Rehabilitatiebeeld, #Herdenkenbeeld, #Visualiserenbeeld, #Rechtvaardigingbeeld, #Moedbeeld, #Erkenningbeeld, #Verbindenbeeld {
+#Voorwoordbeeld, #Inleidingbeeld, #Traumabeeld, #Psychebeeld, #Mogelijkhedenbeeld, #Bewustwordingbeeld, #Provocatiebeeld, #Confrontatiebeeld, #Lijdenbeeld, #Rouwenbeeld, #Collectiefverwerkenbeeld,  #Individueelverwerkenbeeld, #Herkenningbeeld, #Hoopbeeld, #Rehabilitatiebeeld, #Herdenkenbeeld, #Visualiserenbeeld, #Rechtvaardigingbeeld, #Moedbeeld, #Erkenningbeeld {
 	float:left;
 	width: 32%;
 	margin-top: -2%;
 }
 
-#Kunstbeeld, #Conclusiebeeld, #Bronnenbeeld, #Beeldverwijzingbeeld, #Colofonbeeld {
+#Kunstbeeld, #Verbindenbeeld, #Conclusiebeeld, #Bronnenbeeld, #Beeldverwijzingbeeld, #Colofonbeeld {
 	float:left;
 	width: 32%;
 	margin-top: -2%;
